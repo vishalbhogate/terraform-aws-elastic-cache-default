@@ -1,1 +1,3 @@
-data "type" "name" {}
+
+data "aws_region" "current" {}
+data "aws_availability_zones" "available" {}
